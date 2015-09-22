@@ -4,6 +4,8 @@
 NeoBundleCheck
 NeoBundleDocs
 
+colorscheme vividchalk
+
 source ~/.vim/bindings.vim
 source ~/.vim/plugins-override.vim
 
