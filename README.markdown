@@ -92,7 +92,7 @@ announcements of new versions, tips, etc.
 
 From your homedirectory (on Linux/Mac OSX):
 
-* `git clone git://github.com/astrails/dotvim.git`
+* `git clone https://github.com/astrails/dotvim.git # or git@github.com:astrails/dotvim.git for ssh`
 * `ln -sfn dotvim .vim`
 * `ln -sfn dotvim/vimrc .vimrc`
 * `cd .vim; make install`
@@ -171,6 +171,11 @@ files. There are several override files supported by dotvim.
 They are loaded in the following order:
 
 * base dotvim configuration (global, plugin configurations, bindings, macros)
+* `~/.vimrc.bundles`
+
+  Loads additional bundles inside the `neobundle#begin/end` block.
+  Should contain lines like `NeoBundle 'my-custom/bundle'`
+
 * `~/.local-before.vim` _[deprecated]_
 * `~/.vimrc.before`
 

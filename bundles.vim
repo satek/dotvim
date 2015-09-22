@@ -116,8 +116,10 @@ NeoBundle 'ekalinin/Dockerfile.vim'
 NeoBundle 'groenewege/vim-less'
 NeoBundle 'mustache/vim-mustache-handlebars'
 NeoBundle 'mtscout6/vim-cjsx'
-NeoBundle 'mintplant/vim-literate-coffeescript'
+NeoBundle 'vitaly/vim-literate-coffeescript'
 NeoBundle 'rust-lang/rust', {'rtp': 'src/etc/vim/'}
+NeoBundle 'pangloss/vim-javascript'
+NeoBundle 'mxw/vim-jsx'
 
 " clojure
 "NeoBundle 'VimClojure'
@@ -158,6 +160,10 @@ NeoBundle 'Shougo/unite-outline'
 NeoBundle 'ujihisa/unite-colorscheme'
 
 NeoBundle 'ngmy/vim-rubocop'
+
+if filereadable(expand("~/.vimrc.bundles"))
+  source ~/.vimrc.bundles
+endif
 
 call neobundle#end()
 
