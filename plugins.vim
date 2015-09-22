@@ -164,3 +164,7 @@ map <Leader>r :call RunNearestSpec()<CR>
 let g:airline_powerline_fonts=1
 let g:airline_theme='light' " dark simple badwolf solarized solarized2
 set noshowmode
+
+let g:vimrubocop_keymap = 0
+nmap <Leader>0 :RuboCop<CR>
+let g:rspec_command = "bundle exec spring rspec {spec}"
