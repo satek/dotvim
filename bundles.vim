@@ -88,9 +88,9 @@ NeoBundle 'apidock.vim'
 " toggle ruby blocks style
 NeoBundle 'vim-scripts/blockle.vim'
 " lightweight Rspec runner for Vim
-NeoBundle 'josemarluedke/vim-rspec'
+NeoBundle 'thoughtbot/vim-rspec'
 " i18n extraction plugin
-NeoBundle 'stefanoverna/vim-i18n'
+"NeoBundle 'stefanoverna/vim-i18n'
 
 " color themes
 NeoBundle 'altercation/vim-colors-solarized'
@@ -156,6 +156,8 @@ NeoBundle 'Shougo/vimproc.vim', {
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Shougo/unite-outline'
 NeoBundle 'ujihisa/unite-colorscheme'
+
+NeoBundle 'ngmy/vim-rubocop'
 
 call neobundle#end()
 
