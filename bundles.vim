@@ -142,6 +142,8 @@ NeoBundle 'mattn/gist-vim'
 " web APIs support
 NeoBundle 'mattn/webapi-vim'
 
+NeoBundle 'jgdavey/tslime.vim'
+
 "NeoBundle 'ShowMarks'
 "NeoBundle 'tpope/vim-unimpaired'
 "NeoBundle 'reinh/vim-makegreen'
