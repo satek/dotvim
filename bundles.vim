@@ -165,7 +165,9 @@ if filereadable(expand("~/.vimrc.bundles"))
   source ~/.vimrc.bundles
 endif
 
+" python
+NeoBundle 'klen/python-mode'
+
 call neobundle#end()
 
 filetype plugin indent on
-
