@@ -136,7 +136,7 @@ NeoBundle 'tpope/vim-repeat'
 " hide .gitignore-d files from vim
 NeoBundle 'vitaly/vim-gitignore'
 " repeat motion with <Space>
-NeoBundle 'scrooloose/vim-space'
+" NeoBundle 'scrooloose/vim-space'
 " Github's gist support
 NeoBundle 'mattn/gist-vim'
 " web APIs support
