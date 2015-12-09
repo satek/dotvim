@@ -136,7 +136,7 @@ NeoBundle 'tpope/vim-repeat'
 " hide .gitignore-d files from vim
 NeoBundle 'vitaly/vim-gitignore'
 " repeat motion with <Space>
-NeoBundle 'scrooloose/vim-space'
+" NeoBundle 'scrooloose/vim-space'
 " Github's gist support
 NeoBundle 'mattn/gist-vim'
 " web APIs support
@@ -167,7 +167,9 @@ if filereadable(expand("~/.vimrc.bundles"))
   source ~/.vimrc.bundles
 endif
 
+" python
+NeoBundle 'klen/python-mode'
+
 call neobundle#end()
 
 filetype plugin indent on
-

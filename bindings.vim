@@ -69,3 +69,8 @@ nnoremap <C-l> <C-w>l
 
 " fast expand current file's directory in command mode
 cnoremap %% <C-R>=expand('%:h').'/'<cr>
+
+" tslime
+vmap <C-c><C-c> <Plug>SendSelectionToTmux
+nmap <C-c><C-c> <Plug>NormalModeSendToTmux
+nmap <C-c>r <Plug>SetTmuxVars
