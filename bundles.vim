@@ -170,6 +170,9 @@ endif
 " python
 NeoBundle 'klen/python-mode'
 
+" elixir
+NeoBundle 'elixir-lang/vim-elixir'
+
 call neobundle#end()
 
 filetype plugin indent on
