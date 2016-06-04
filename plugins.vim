@@ -167,4 +167,4 @@ set noshowmode
 
 let g:vimrubocop_keymap = 0
 nmap <Leader>0 :RuboCop<CR>
-let g:rspec_command = 'call Send_to_Tmux("bundle exec spring rspec {spec}\n")'
+let g:rspec_command = 'call Send_to_Tmux("bundle exec rspec {spec}\n")'
